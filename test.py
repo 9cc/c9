@@ -32,3 +32,5 @@ for i in range(1, 10):
         if i >= j:
             print('%d * %d = %d' % (i, j, i*j), end=' ')
     print('')
+
+    # 123
