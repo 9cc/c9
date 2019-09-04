@@ -20,6 +20,20 @@ class ReadExcel:
     def write_data(self):
         pass
 
+
+    def info(self):
+        for testcase in testcases:
+            url = testcase[1]
+            casename = testcase[3]
+            method = testcase[5]
+            data = testcase[6]
+            status_code = testcase[7]
+            expect_res = testcase[8]
+
+
 if __name__ == "__main__":
     data = ReadExcel('F:\\Work\\jiekou\\testcases\\接口测试用例模板.xlsx', 'Sheet1')
     print(data.read_data())
+
+data = ReadExcel('testcases\\接口测试用例模板.xlsx', 'Sheet1')
+testcases = data.read_data()
