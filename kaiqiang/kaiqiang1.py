@@ -4,6 +4,7 @@ class Person:
 	def __init__(self, name):
 		self.name = name
 
+	def an_zhuang_zidan(self)
 
 class Gun:
 	'''枪的类'''
@@ -37,6 +38,7 @@ def main():
 	# 5. 创建一个敌人
 
 	# 6. 老王把子弹安装到弹夹中
+	laowang.an_zhuang
 
 	# 7. 老王把弹夹安装到枪中
 
